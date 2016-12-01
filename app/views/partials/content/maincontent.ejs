@@ -1,0 +1,43 @@
+<div class="maincontent" style="text-align:center;">
+	<h1>Employee Info</h1>
+	 	<form name="payslipForm" class="form-horizontal" id="payslip-form">
+	 		<div class="form-group">
+	 			<div class="col-xs-12 col-md-12">
+	 				<div class="col-md-6 col-md-offset-3 gap-form">
+	 					<input type="text" class="form-control" name="Transaction Number" id="transactionumber" required placeholder="Transaction Number">
+	                </div>
+	                <div class="col-md-6 col-md-offset-3 gap-form">
+	                  <input type="text" class="form-control" name="firstname" id="firstname" required placeholder="First name">
+	                </div>
+	                <div class="col-md-6 col-md-offset-3 gap-form">
+	                  <input type="text" class="form-control" name="lastname" id="lastname" required placeholder="Last name">
+	                </div>
+		 			<div class="col-md-6 col-md-offset-3 gap-form">
+		 				<div class="input-group">
+						  	<span class="input-group-addon">$</span>
+						    <input type="number" class="form-control" name="salary" id="salary" required placeholder="Annual Salary"/>
+						    <span class="input-group-addon">.00</span>
+						</div>
+		 			</div>
+		 			<div class="col-md-6 col-md-offset-3 gap-form">
+		 				<div class="input-group">
+						  	<span class="input-group-addon">%</span>
+						    <input type="number" class="form-control" name="rate" id="rate" required placeholder="Super Rate"/>
+						</div>
+		 			</div>
+	 			</div>
+	 			<div class="col-xs-12 col-md-12" style="margin-top:10px;">
+		 			<div class="col-md-5 col-md-offset-4" style="text-align:right;">
+		 				<span class="input-group-btn">
+	                      <button id="salary-submit" class="btn btn-info" type="submit">Generate PaySlip</button>
+	                    </span>
+		 			</div>
+		 		</div>
+	 		</div>
+	 	</form>		
+</div>
+
+<div class="maincontent" style="text-align:center;">
+	<div class="report-messages"></div>
+</div>
+
