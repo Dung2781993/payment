@@ -6,4 +6,8 @@ This is Payroll System. It helps users to make the payment base on their annual 
 After installing all packages, you can type 
 # npm start 
 
+to start the application . In order to run the application on localhost, you should have MongoDB. You can download MongoDB in this link
+
+https://www.mongodb.com/
+
 
